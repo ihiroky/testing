@@ -21,6 +21,7 @@ buildscript {
     dependencies {
         classpath 'coveralls:coveralls-gradle-plugin:0.1.6'
         classpath 'org.codehaus.groovy.modules.http-builder:http-builder:0.5.2'
+        classpath 'org.apache.httpcomponents:httpmime:4.3'
     }
 }
 
