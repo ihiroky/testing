@@ -15,10 +15,12 @@ apply plugin: 'coveralls'
 buildscript {
     repositories {
         flatDir { dirs 'lib' }
+        mavenCentral()
     }
 
     dependencies {
         classpath 'coveralls:coveralls-gradle-plugin:0.1.6'
+        classpath 'org.codehaus.groovy.modules.http-builder:http-builder:0.5.2'
     }
 }
 
